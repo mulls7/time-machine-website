@@ -1,0 +1,11 @@
+:root {
+  --secondary: #241a1b;
+  --white: #fde3e5;
+  --primary: #f14950;
+  --grey-text: #9b8e8e;
+}
+
+body,
+a {
+  color: var(--secondary);
+}

@@ -1,0 +1,36 @@
+.categories-trains {
+  margin-bottom: 10rem;
+}
+
+.categories-trains__card {
+  margin-bottom: 3rem;
+}
+
+.categories-trains__card__img {
+  border-bottom: 1px solid var(--secondary);
+  padding-bottom: 2rem;
+}
+
+.categories-trains__card span {
+  font-size: var(--size-body);
+  color: var(--grey-text);
+}
+
+@media screen and (min-width: 768px) {
+  .categories-trains {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: baseline;
+  }
+
+  .categories-trains__card {
+    max-width: 46%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .categories-trains__card {
+    max-width: 32%;
+  }
+}

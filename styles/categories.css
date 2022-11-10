@@ -1,0 +1,32 @@
+.categories {
+  margin-bottom: 10rem;
+}
+
+.categories__card {
+  margin-bottom: 3rem;
+}
+
+.categories__card__img {
+  border-bottom: 1px solid var(--secondary);
+  padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .categories__card {
+    max-width: 46%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .categories__card {
+    max-width: 32%;
+  }
+  .categories {
+    gap: 1rem;
+  }
+}
